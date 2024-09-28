@@ -1,0 +1,62 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #171010;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        #hero {
+            background: url('https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154750.jpg?w=826&t=st=1727552382~exp=1727552982~hmac=6a3c4f7413bb687a1a63e13521966236d2bac36f8c637be92c96c756924ef519') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(231, 211, 211);
+            text-align: center;
+        }
+
+        #gallery {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .gallery-container img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+ 
